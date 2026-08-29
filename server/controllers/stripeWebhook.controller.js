@@ -28,6 +28,4 @@ await User.findByIdAndUpdate(userId,{
     }
 
     return res.json({received:true})
-
-
 }

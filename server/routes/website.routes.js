@@ -13,4 +13,4 @@ websiteRouter.get("/get-all",isAuth,getAll)
 websiteRouter.get("/deploy/:id",isAuth,deploy)
 websiteRouter.get("/get-by-slug/:slug",getBySlug)
 
-export default websiteRouter
+export default websiteRouter 

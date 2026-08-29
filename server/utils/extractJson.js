@@ -1,4 +1,4 @@
-const extractJson = async (text) => {
+ const extractJson = async (text) => {
     if (!text) {
         return
     }
